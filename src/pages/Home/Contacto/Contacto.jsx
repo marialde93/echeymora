@@ -9,14 +9,17 @@ const Contacto = () => {
           Contacto
         </h2>
         <p className="text-muted text-center mb-5">
-          Si tenés alguna consulta, proyecto o idea, dejanos tu mensaje y te
-          responderemos a la brevedad.
+          Si tenés alguna consulta, proyecto o idea, hablanos a nuestro email y
+          te responderemos a la brevedad!
+        </p>
+        <p className="fw-bold text-muted text-center mb-5">
+          Email: eche.mora.studio@gmail.com{" "}
         </p>
 
-        <div className="row justify-content-center">
+        {/*<div className="row justify-content-center">
           <div className="col-md-8">
             <form className="contact-form">
-              {/* Nombre */}
+              {/* Nombre 
               <div className="mb-3">
                 <label htmlFor="nombre" className="form-label">
                   Nombre
@@ -30,7 +33,7 @@ const Contacto = () => {
                 />
               </div>
 
-              {/* Email */}
+              {/* Email 
               <div className="mb-3">
                 <label htmlFor="email" className="form-label">
                   Email
@@ -44,7 +47,7 @@ const Contacto = () => {
                 />
               </div>
 
-              {/* Asunto */}
+              {/* Asunto *
               <div className="mb-3">
                 <label htmlFor="asunto" className="form-label">
                   Asunto
@@ -58,7 +61,7 @@ const Contacto = () => {
                 />
               </div>
 
-              {/* Mensaje */}
+              {/* Mensaje *
               <div className="mb-3">
                 <label htmlFor="mensaje" className="form-label">
                   Mensaje
@@ -72,7 +75,7 @@ const Contacto = () => {
                 ></textarea>
               </div>
 
-              {/* Botón */}
+              {/* Botón *
               <div className="text-center">
                 <button type="submit" className="btn btn-rosa">
                   Enviar
@@ -80,7 +83,7 @@ const Contacto = () => {
               </div>
             </form>
           </div>
-        </div>
+        </div>*/}
       </section>
     </Layout>
   );
