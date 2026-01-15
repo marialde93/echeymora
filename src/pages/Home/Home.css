@@ -1,0 +1,62 @@
+.hero {
+  min-height: 70vh;
+  background-color: var(--fondo);
+  background-image: url("/logo_1.png"); /* logo como fondo */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px; /* tamaño del logo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Contenido encima del logo */
+.hero-content {
+  position: relative;
+  z-index: 1; /* asegura que texto y botón estén sobre el logo */
+}
+
+/* Sombra ligera para que el texto resalte si el fondo es claro */
+.hero-content h1,
+.hero-content p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Boton */
+.btn-rosa {
+  background: linear-gradient(135deg, rgba(207, 135, 122), rgba(219, 181, 165));
+  color: rgba(100, 188, 176);
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  box-shadow: 0 0 20px rgba(210, 190, 98);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-rosa:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgba(184, 106, 223, 0.55);
+  color: rgba(100, 188, 176);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    background-size: 200px; /* logo más chico en móvil */
+    padding: 1.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}

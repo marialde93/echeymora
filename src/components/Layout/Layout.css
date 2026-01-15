@@ -1,0 +1,30 @@
+:root {
+  --rosa-oscuro: rgba(207, 135, 122);
+  --rosa-claro: rgba(219, 181, 165);
+  --celeste-oscuro: rgba(100, 188, 176);
+  --celeste-claro: rgba(112, 204, 195);
+  --amarillo-neutro: rgba(210, 190, 98);
+  --fondo: rgba(235, 233, 228);
+}
+
+/* Colores personalizados */
+.bg-rosa-claro {
+  background-color: var(--rosa-claro) !important;
+}
+
+.bg-celeste-oscuro {
+  background-color: var(--celeste-oscuro) !important;
+}
+
+.text-celeste-oscuro {
+  color: var(--celeste-oscuro) !important;
+}
+
+body {
+  background-color: var(--fondo);
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
