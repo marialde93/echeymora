@@ -41,7 +41,7 @@ const Proyectos = () => {
           <div className="col-md-8">
             <div className="card border-0 shadow-sm project-card">
               <img
-                src="/oraculo_femenino/oraculo_preview.png"
+                src="oraculo_preview.png"
                 alt="Oráculo de Arquetipos Femeninos"
                 className="card-img-top rounded project-img"
               />
@@ -56,10 +56,10 @@ const Proyectos = () => {
                 </p>
 
                 <a
-                  href="/oraculo_femenino/index.html"
-                  target="_self"
-                  rel="noopener noreferrer"
+                  href="https://echemora.itch.io/oracle-of-female-archetypes"
                   className="btn btn-rosa"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Entrar al ritual
                 </a>
