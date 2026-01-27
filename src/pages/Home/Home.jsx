@@ -130,6 +130,21 @@ const Home = () => {
       <section className="projects container py-5 text-center">
         <h2 className="fw-bold mb-5 text-celeste-oscuro">Proyectos</h2>
 
+        <p className="text-muted mb-5 mx-auto" style={{ maxWidth: "700px" }}>
+          Estos son algunos de nuestros mundos en desarrollo. Podés explorar{" "}
+          <strong>todos nuestros proyectos</strong> y jugar nuestras
+          experiencias publicadas en{" "}
+          <a
+            href="https://echemora.itch.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="fw-semibold text-decoration-none text-rosa"
+          >
+            nuestra página de itch.io
+          </a>
+          .
+        </p>
+
         <div className="row g-4">
           {/* Proyecto: Servir la Olla */}
           <div className="col-12 col-md-6">
