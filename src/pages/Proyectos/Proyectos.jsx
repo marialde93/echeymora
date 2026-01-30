@@ -70,38 +70,34 @@ const Proyectos = () => {
         </div>
 
         {/* Proyecto: Oráculos de Galatea */}
-        <div className="col-12 col-md-6">
-          <div className="card border-0 shadow-sm project-card h-100">
-            <img
-              src="/oraculos_galatea_preview.png"
-              alt="The Oracles of Galatea"
-              className="card-img-top rounded project-img"
-            />
-            <div className="card-body">
-              <h4 className="fw-bold text-celeste-oscuro mb-3">
-                The Oracles of Galatea
-              </h4>
+        {/* Proyecto: Oráculo de Arquetipos Femeninos */}
+        <div className="row justify-content-center mb-5">
+          <div className="col-md-8">
+            <div className="card border-0 shadow-sm project-card">
+              <img
+                src="/oraculos_galatea_preview.png"
+                alt="The Oracles of Galatea"
+                className="card-img-top rounded project-img"
+              />
+              <div className="card-body">
+                <h4 className="card-title fw-bold text-celeste-oscuro mb-3">
+                  Oráculo de Arquetipos Femeninos
+                </h4>
+                <p className="card-text text-muted mb-4">
+                  Una experiencia ritual interactiva que reúne tres oráculos:{" "}
+                  <strong>Arquetipos Femeninos</strong>,{" "}
+                  <strong>Guardianes</strong> y <strong>Poder Animal</strong>.
+                </p>
 
-              <p className="text-muted mb-3">
-                Una experiencia ritual interactiva que reúne tres oráculos:{" "}
-                <strong>Arquetipos Femeninos</strong>,{" "}
-                <strong>Guardianes</strong> y <strong>Poder Animal</strong>.
-              </p>
-
-              <p className="text-muted mb-4">
-                Ingresá con una intención y dejá que el símbolo correcto
-                aparezca. Cada oráculo conecta con un plano distinto: identidad,
-                protección y energía vital.
-              </p>
-
-              <a
-                href="https://echemora.itch.io/the-oracles-of-galatea"
-                className="btn btn-rosa"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Ver experiencia completa
-              </a>
+                <a
+                  href="https://echemora.itch.io/the-oracles-of-galatea"
+                  className="btn btn-rosa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver experiencia completa
+                </a>
+              </div>
             </div>
           </div>
         </div>
