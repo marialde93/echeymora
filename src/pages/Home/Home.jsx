@@ -12,74 +12,30 @@ const Home = () => {
         <h2 className="fw-bold mb-4 text-celeste-oscuro">Quiénes somos</h2>
 
         <p className="text-muted mx-auto mb-3" style={{ maxWidth: "700px" }}>
-          Eche & Mora nació como un sueño que volvemos a vivir desde nuestra
-          infancia: esos momentos de ocio jugando videojuegos que nos llenaban
-          de alegría y asombro. Hoy decidimos tomar las riendas y crear nuestras
-          propias experiencias, siendo protagonistas de mundos nuevos que
-          queremos compartir con la comunidad gamer.
+          Eche & Mora nació como un refugio en mi infancia: un espacio donde los
+          videojuegos se convirtieron en una forma de escapar, sentir emoción y
+          enfrentar desafíos que realmente importaban. Esas experiencias
+          marcaron no solo cómo veo los juegos, sino también por qué hoy decido
+          crearlos.
         </p>
 
         <p className="text-muted mx-auto mb-1" style={{ maxWidth: "700px" }}>
-          Somos María Alderete y Lucas Manzoni, dos apasionados por el
-          desarrollo, el arte 3D y la creatividad. Estamos dando los primeros
-          pasos de este proyecto con ilusión, aprendiendo y creciendo con cada
-          experiencia. Nuestro objetivo es construir un espacio donde jugar,
-          crear y compartir se encuentren, con empatía, colaboración y diversión
-          en el centro de todo.
+          Soy Lucas Manzoni, desarrollador y artista 3D apasionado por crear
+          experiencias inmersivas y significativas. Actualmente estoy dando
+          forma a este proyecto como creador independiente, aprendiendo y
+          creciendo con cada paso. Mi objetivo es construir un espacio donde
+          jugar, crear y compartir se encuentren, impulsado por la creatividad,
+          la curiosidad y el amor por los videojuegos.
         </p>
       </section>
 
       <hr className="my-4" style={{ borderColor: "rgba(0, 0, 0, 0.4)" }} />
 
-      {/* FUNDADORES */}
+      {/* CREADOR */}
       <section className="founders container py-5 text-center">
-        <h2 className="fw-bold mb-3 text-celeste-oscuro">Nuestro equipo</h2>
+        <h2 className="fw-bold mb-3 text-celeste-oscuro">Creador</h2>
 
         <div className="row justify-content-center">
-          {/* María */}
-          <div className="col-md-5 mb-4">
-            <div className="card border-0">
-              <img
-                src="/malu.jpeg"
-                alt="María Alderete"
-                className="card-img-top rounded-circle founder-img"
-              />
-              <div className="card-body">
-                <h5 className="card-title">María Alderete</h5>
-                <p className="card-text text-muted">
-                  CEO, Game Developer & Management
-                </p>
-                <div className="d-flex justify-content-center gap-3 mt-2">
-                  <a
-                    href="https://github.com/marialde93"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-dark fs-4"
-                  >
-                    <i className="bi bi-github"></i>
-                  </a>
-                  <a
-                    href="https://vercel.com/maria-alderetes-projects"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-dark fs-4"
-                  >
-                    <i className="bi bi-globe"></i>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/maria-alderete-developer/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-dark fs-4"
-                  >
-                    <i className="bi bi-linkedin"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Lucas */}
           <div className="col-md-5 mb-4">
             <div className="card border-0">
               <img
@@ -90,7 +46,7 @@ const Home = () => {
               <div className="card-body">
                 <h5 className="card-title">Lucas Manzoni</h5>
                 <p className="card-text text-muted">
-                  CEO, Game Developer & 3D Artist
+                  Game Developer & 3D Artist
                 </p>
                 <div className="d-flex justify-content-center gap-3 mt-2">
                   <a
@@ -131,8 +87,8 @@ const Home = () => {
         <h2 className="fw-bold mb-5 text-celeste-oscuro">Proyectos</h2>
 
         <p className="text-muted mb-5 mx-auto" style={{ maxWidth: "700px" }}>
-          Estos son algunos de nuestros mundos en desarrollo. Podés explorar{" "}
-          <strong>todos nuestros proyectos</strong> y jugar nuestras
+          Estos son algunos de los mundos que estoy construyendo actualmente.
+          Podés explorar <strong>todos mis proyectos</strong> y jugar mis
           experiencias publicadas en{" "}
           <a
             href="https://echemora.itch.io/"
@@ -140,33 +96,41 @@ const Home = () => {
             rel="noopener noreferrer"
             className="fw-semibold text-decoration-none text-rosa"
           >
-            nuestra página de itch.io
+            mi página de itch.io
           </a>
           .
         </p>
 
         <div className="row g-4">
-          {/* Proyecto: Servir la Olla */}
+          {/* Proyecto: Monora */}
           <div className="col-12 col-md-6">
             <div className="card border-0 shadow-sm project-card h-100">
               <img
-                src="/servir_olla_preview.png"
-                alt="Servir la Olla"
+                src="/monora_preview.gif"
+                alt="Monora"
                 className="card-img-top rounded project-img"
               />
               <div className="card-body">
-                <h4 className="fw-bold text-celeste-oscuro mb-3">
-                  Servir la Olla
-                </h4>
+                <h4 className="fw-bold text-celeste-oscuro mb-3">Monora</h4>
                 <p className="text-muted mb-3">
-                  Un juego para compartir risas, anécdotas y momentos únicos.
-                  Cada ronda propone una historia distinta, donde el objetivo es
-                  simple: <strong>servir la olla</strong>.
+                  MONORA es un colorido juego independiente en el que cada mono
+                  que capturas pasa a formar parte de tu cola, que no deja de
+                  crecer. Explora una pequeña isla estilizada, captura monos
+                  juguetones y sobrevive mientras tu cadena se hace cada vez más
+                  larga y difícil de controlar. Lo que comienza como un simple
+                  reto de recolección se convierte poco a poco en una caótica
+                  prueba de reflejos. Cuantos más monos tengas… más difícil será
+                  no estrellarte.
                 </p>
-                <p className="text-muted">
-                  Próximamente en <strong>Google Play</strong> y{" "}
-                  <strong>Steam</strong>.
-                </p>
+
+                <a
+                  href="https://echemora.itch.io/monora"
+                  className="btn btn-rosa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver en itch.io
+                </a>
               </div>
             </div>
           </div>
@@ -200,6 +164,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+
           {/* Proyecto: Oráculos de Galatea */}
           <div className="col-12 col-md-6">
             <div className="card border-0 shadow-sm project-card h-100">
@@ -238,6 +203,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       {/* APOYAR EL PROYECTO */}
       <section className="support container py-5 text-center">
         <div
