@@ -123,9 +123,9 @@ const Home = () => {
                   parecía una vida tranquila sirviendo comida y bebida pronto
                   demuestra ser algo muy distinto.
                 </p>
-                <a href="/trawun" className="btn btn-rosa">
+                <Link to="/trawun" className="btn btn-rosa">
                   Conocer más
-                </a>
+                </Link>
               </div>
             </div>
           </div>
