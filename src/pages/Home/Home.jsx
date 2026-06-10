@@ -115,9 +115,7 @@ const Home = () => {
                 <h4 className="fw-bold text-celeste-oscuro mb-3">
                   Trawün: Tavern at the End of the World
                 </h4>
-                <p className="text-muted mb-4">
-                  <strong>Tu abuelo ha muerto.</strong>
-                </p>
+
                 <p>
                   Con las aventuras detrás de vos, regresás al lugar donde
                   creciste para hacerte cargo del negocio familiar. Lo que
