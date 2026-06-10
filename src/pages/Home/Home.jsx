@@ -102,6 +102,33 @@ const Home = () => {
         </p>
 
         <div className="row g-4">
+          {/* Proyecto: Trawun */}
+          <div className="col-12 col-md-6">
+            <div className="card border-0 shadow-sm project-card h-100">
+              <img
+                src="public/Trawun_imagenes/concept_tavern.png"
+                alt="Trawun: Taberna del fin del mundo"
+                className="card-img-top rounded project-img"
+              />
+              <div className="card-body">
+                <h4 className="fw-bold text-celeste-oscuro mb-3">
+                  Trawün: Tavern at the End of the World
+                </h4>
+                <p className="text-muted mb-4">
+                  Un aventurero retirado decide asentarse y abrir una taberna en
+                  <strong>la Patagonia mágica</strong>. Enfermedad, cansancio,
+                  ganas de familia — las razones son tuyas. El problema: las
+                  aventuras no te dejaron ir. Llegan a tu puerta cada noche, con
+                  forma de clientes, misiones y secretos. Vos decidís hasta
+                  dónde te metés.
+                </p>
+                <a href="/trawun" className="btn btn-rosa">
+                  Conocer más
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Proyecto: Monora */}
           <div className="col-12 col-md-6">
             <div className="card border-0 shadow-sm project-card h-100">
