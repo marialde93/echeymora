@@ -5,7 +5,7 @@
 
   overflow: hidden;
 
-  background-image: url("public/Trawun_imagenes/concept_tavern.png");
+  background-image: url("/Trawun_imagenes/concept_tavern.png");
   background-size: cover;
   background-position: center;
 }
