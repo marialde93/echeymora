@@ -163,7 +163,7 @@ const Trawun = () => {
               <div className="world-card">
                 <div className="image-placeholder large-image">
                   <img
-                    src="public/Trawun_imagenes/concept_world.png"
+                    src="/Trawun_imagenes/concept_world.png"
                     alt="La Taberna"
                     className="img-fluid rounded"
                   />
@@ -185,7 +185,7 @@ const Trawun = () => {
             <div className="col-md-5">
               <div className="world-card">
                 <img
-                  src="public/Trawun_imagenes/concept_tavern.png"
+                  src="/Trawun_imagenes/concept_tavern.png"
                   alt="La Taberna"
                   className="img-fluid rounded"
                 />
@@ -250,7 +250,7 @@ const Trawun = () => {
               <div className="faction-card faction-south h-100">
                 <div className="faction-image">
                   <img
-                    src="public/Trawun_imagenes/Banderin_Sur.png"
+                    src="/Trawun_imagenes/Banderin_Sur.png"
                     alt="La Taberna"
                     className="img-fluid rounded"
                   />
@@ -284,7 +284,7 @@ const Trawun = () => {
               <div className="faction-card faction-neutral h-100">
                 <div className="faction-image">
                   <img
-                    src="public/Trawun_imagenes/Banderin_Taberna.png"
+                    src="/Trawun_imagenes/Banderin_Taberna.png"
                     alt="La Taberna"
                     className="img-fluid rounded"
                   />
@@ -323,7 +323,7 @@ const Trawun = () => {
               <div className="faction-card faction-north h-100">
                 <div className="faction-image">
                   <img
-                    src="public/Trawun_imagenes/Banderin_Norte.png"
+                    src="/Trawun_imagenes/Banderin_Norte.png"
                     alt="La Taberna"
                     className="img-fluid rounded"
                   />
@@ -378,13 +378,13 @@ const Trawun = () => {
             <div className="col-lg-4">
               <div className="race-images-vertical">
                 <img
-                  src="public/Trawun_imagenes/Tehuelche_male.png"
+                  src="/Trawun_imagenes/Tehuelche_male.png"
                   alt="Tehuelche Masculino"
                   className="race-image"
                 />
 
                 <img
-                  src="public/Trawun_imagenes/Tehuelche_female.png"
+                  src="/Trawun_imagenes/Tehuelche_female.png"
                   alt="Tehuelche Femenino"
                   className="race-image"
                 />
@@ -459,13 +459,13 @@ const Trawun = () => {
             <div className="col-lg-4">
               <div className="race-images-vertical">
                 <img
-                  src="public/Trawun_imagenes/Patagon_male.png"
+                  src="/Trawun_imagenes/Patagon_male.png"
                   alt="Patagón Masculino"
                   className="race-image"
                 />
 
                 <img
-                  src="public/Trawun_imagenes/Patagon_female.png"
+                  src="/Trawun_imagenes/Patagon_female.png"
                   alt="Patagón Femenino"
                   className="race-image"
                 />
@@ -479,13 +479,13 @@ const Trawun = () => {
             <div className="col-lg-4">
               <div className="race-images-vertical">
                 <img
-                  src="public/Trawun_imagenes/Pampero_male.png"
+                  src="/Trawun_imagenes/Pampero_male.png"
                   alt="Pampero Masculino"
                   className="race-image"
                 />
 
                 <img
-                  src="public/Trawun_imagenes/Pampero_female.png"
+                  src="/Trawun_imagenes/Pampero_female.png"
                   alt="Pampero Femenino"
                   className="race-image"
                 />
@@ -590,13 +590,13 @@ const Trawun = () => {
             <div className="col-lg-4">
               <div className="race-images-vertical">
                 <img
-                  src="public/Trawun_imagenes/Duende_male.png"
+                  src="/Trawun_imagenes/Duende_male.png"
                   alt="Duende Masculino"
                   className="race-image"
                 />
 
                 <img
-                  src="public/Trawun_imagenes/Duende_female.png"
+                  src="/Trawun_imagenes/Duende_female.png"
                   alt="Duende Femenino"
                   className="race-image"
                 />
@@ -610,13 +610,13 @@ const Trawun = () => {
             <div className="col-lg-4">
               <div className="race-images-vertical">
                 <img
-                  src="public/Trawun_imagenes/Puma_male.png"
+                  src="/Trawun_imagenes/Puma_male.png"
                   alt="Nahuel Masculino"
                   className="race-image"
                 />
 
                 <img
-                  src="public/Trawun_imagenes/Puma_female.png"
+                  src="/Trawun_imagenes/Puma_female.png"
                   alt="Nahuel Femenino"
                   className="race-image"
                 />
