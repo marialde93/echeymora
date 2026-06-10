@@ -106,7 +106,7 @@ const Home = () => {
           <div className="col-12 col-md-6">
             <div className="card border-0 shadow-sm project-card h-100">
               <img
-                src="/trawun_imagenes/concept_tavern.png"
+                src="/public/Trawun_imagenes/concept_tavern.png"
                 alt="Trawun: Taberna del fin del mundo"
                 className="card-img-top rounded project-img"
               />
