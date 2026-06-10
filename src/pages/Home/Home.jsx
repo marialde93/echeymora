@@ -115,12 +115,13 @@ const Home = () => {
                   Trawün: Tavern at the End of the World
                 </h4>
                 <p className="text-muted mb-4">
-                  Un aventurero retirado decide asentarse y abrir una taberna en
-                  <strong>la Patagonia mágica</strong>. Enfermedad, cansancio,
-                  ganas de familia — las razones son tuyas. El problema: las
-                  aventuras no te dejaron ir. Llegan a tu puerta cada noche, con
-                  forma de clientes, misiones y secretos. Vos decidís hasta
-                  dónde te metés.
+                  <strong>Tu abuelo ha muerto.</strong>
+                </p>
+                <p>
+                  Con las aventuras detrás de vos, regresás al lugar donde
+                  creciste para hacerte cargo del negocio familiar. Lo que
+                  parecía una vida tranquila sirviendo comida y bebida pronto
+                  demuestra ser algo muy distinto.
                 </p>
                 <a href="/trawun" className="btn btn-rosa">
                   Conocer más
